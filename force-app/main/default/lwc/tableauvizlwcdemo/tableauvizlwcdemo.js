@@ -10,8 +10,8 @@ export default class tableauvizlwcdemo extends LightningElement {
     // This is where we got the list of values that LANG could be
     // https://help.salesforce.com/articleView?id=faq_getstart_what_languages_does.htm&type=5
     localizedWorkbookMap = {
-        'https://public.tableau.com/views/Superstore-EN/Overview?:language=en&:display_count=y&publish=yes&:origin=viz_share_link': {
-            'fr': 'https://public.tableau.com/views/Superstore-fr/Vuedensemble?:language=en&:display_count=y&publish=yes&:origin=viz_share_link'
+        'https://public.tableau.com/views/Superstore-EN/Overview': {
+            'fr': 'https://public.tableau.com/views/Superstore-fr/Vuedensemble'
         }
     };
 
