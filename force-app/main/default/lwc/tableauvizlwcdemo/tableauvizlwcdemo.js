@@ -42,6 +42,6 @@ export default class tableauvizlwcdemo extends LightningElement {
     @api
     get height() {
         // We can make this a real property if we want
-        return 500;
+        return 600;
     }
 }
